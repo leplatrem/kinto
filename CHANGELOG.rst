@@ -10,6 +10,8 @@ This document describes changes between each past release.
 
 - Handle querystring parameters as JSON encoded values
   to avoid treating number as number where they should be strings. (#1217)
+- Fix schema validation when internal fields like ``id`` or ``last_modified`` are
+  marked as required (fixes #1244)
 
 **Internal changes**
 
